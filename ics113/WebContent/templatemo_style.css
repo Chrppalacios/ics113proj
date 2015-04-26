@@ -171,12 +171,53 @@ h4 {
 #templatemo_menu .last {
 	border-right: none;
 }
+#templatemo_menu ul li ul {
+  
+  padding: -10;
+  position: relative;
+  top: 32px;
+  left: -25px;
+  width: 0px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
 
+}
 
+#templatemo_menu ul li ul li {
+  width: 70px; 
+  height: 5px ;
+  padding: 15px 35px 35px 35px;
+  font-size: 15px; 
+  background: #081531; 
+  display: block; 
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+}
+
+#templatemo_menu ul li ul li:hover {
+background: #666;
+}
+
+#templatemo_menu ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
 
 #templatemo_menu li:hover, #templatemo_menu .current {
 	background: url(images/templatemo_menu_current.png) top  repeat-x;
 }
+
+
 
 
 #templatemo_middle_section {
