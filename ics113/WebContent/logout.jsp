@@ -14,6 +14,7 @@
             request.getRequestDispatcher("home member.html").include(request, response);  
               
             HttpSession sessions=request.getSession();  
+            sessions.setAttribute("name", null);
             sessions.invalidate();
             response.sendRedirect("index.jsp"); %>
 </body>

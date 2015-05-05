@@ -1,9 +1,4 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -32,7 +27,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="login-head">
 		<h1>Welcome! Sign In</h1>			
 	</div>
-		<form name="loginform" method="post" action="Loginn">
+		<form name="loginform" method="post" action="Login.jsp">
 			<li>
 				<input type="text" class="text" value="Username" name="username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Username';}"><a href="#" class=" icon user"></a>
 			</li>

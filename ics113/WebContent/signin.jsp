@@ -45,7 +45,7 @@
 <body>
 <article>
 <h1>Sign Up For Free</h1>
-<form onsubmit="return validate()" action="process.jsp">
+<form onsubmit="return validate()" action="process.jsp" method="POST">
 	<ul>
         <li>
         	<label for="name">Your Name:</label>
